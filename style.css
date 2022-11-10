@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 20px 12px;
+gap: 252px;
+}
+h1{
+    position: absolute;
+width: 301px;
+height: 56px;
+left: 704px;
+top: 72px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 56px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#imp{
+    border: 2px solid #543FD3;
+}
+h2{
+    width: 59px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.btns{
+    position: absolute;
+width: 633px;
+height: 685px;
+
+top: 10px;
+display: flex;
+
+}
+.opt{
+    display: flex;
+    position: absolute;
+width: 319px;
+height: 17px;
+left: 704px;
+top: 138px;
+gap: 5px;
+}
+.group1{
+    position: absolute;
+width: 301px;
+height: 685px;
+left: 543px;
+top: 199px;
+
+}
+.group2{
+    position: absolute;
+width: 301px;
+height: 685px;
+left: 875px;
+top: 199px;
+
+}
+button{
+    position: absolute;
+    top: 660px;
+    left: 700px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: red;
+}
